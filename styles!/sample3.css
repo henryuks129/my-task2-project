@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+@import url('https://fonts.cdnfonts.com/css/gt-walsheim');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    /* margin: 2rem; */
+       margin-bottom: 1rem;
+       margin-top: 1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #fff;
+     /* position: fixed;  */
+    top: 0;
+    left: 0;
+}
+
+.container.navbar{
+    margin-bottom: rem;
+    margin-top: -1rem;
+}
+
+.bar{
+    margin: 0.5rem
+}
+
+a{
+    color: #007bff;
+}
+
+/* img{
+    width: 50px;
+}
+
+
+
+img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+} */
+
+li:hover{
+    text-decoration: underline;
+}
+
+.branding{
+    display: flex;
+    align-items: center;
+     gap: 0.3rem; 
+    line-height: 1.5rem;
+}
+
+ .branding-title{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+} 
+
+.branding img{
+    width: 30px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.nav.logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+/* .hero{
+    background-image: url(../assests!/backgroundimage!.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .hero-title{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto;
+    margin-left: 20rem; 
+    position: relative;
+    min-height: 10rem;
+    color: #fff;
+    
+}   */
+
+
+
+
+label{
+    outline: 1px solid #fff;
+
+}
+
+#hero{
+    background-image: url(../assests!/backgroundimage!.jpeg);
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    /* padding-top: 2rem; */
+}
+
+.hero {
+    padding: 2rem 0 2rem 0;
+}
+
+
+
+.hero-form{
+    background-color: rgba(248,249,250,.5);
+}
+
+
+
+
+.hero-content {
+    display: flex;
+    padding-top: 2rem;
+    /* border: 2px solid red; */
+    gap: 30px;
+    
+}
+
+.hero-content .row {
+    /* border: 2px solid green; */
+    padding: 0 1rem 1.5rem 1rem;
+    
+}
+
+.row .text {
+    /* border: 2px solid red; */
+    font-size: 2.2rem;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 9rem;
+}
+
+.content{
+    /* border: 2px solid purple; */
+    color: #878787;
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.details{
+    color: #ffffff;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    font-weight: bold; 
+}
+
+
+.enrolment-title{
+    /* border: 2px solid cyan; */
+    margin-bottom: 0.7em;
+    font-size: 1.3rem;
+
+}
+
+.enrolment .location {
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.location{
+    /* border: 1px solid blue; */
+    /* color: antiquewhite; */
+    margin-top: 0.5rem;
+}
+
+.icon{
+    display: flex;
+    gap: 6px;
+    height: 1.2rem;
+}
+
+
+.icon img{ 
+    /* display: flex; */
+    /* color: aquamarine; */
+    /* color: red; */
+    /* background-color: red; */
+    cursor: pointer;
+    /* color: aqua; */
+    /* padding-left: 1rem; */
+}
+
+/* button{
+    background-color: #007BFF;
+} */
+
+.hero-form{
+    background-color: #ffffff;
+    width: 70%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    height: 28rem;
+    /* border: 2px solid green; */
+}
+
+/* section-1 */
+.section-1 p {
+    font-size: 1.3rem;
+}
+
+.section-1{
+    color: #343A40;
+}
+
+
+/* section-2 */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-2 input,
+.section-2 button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    /* border: 1px solid grey; */
+}
+
+
+.section-2 button { 
+    color: white;
+    background-color: #007bff;
+    margin-top: 2rem;
+}
+
+.section-2 button a {
+    color: white;
+}
+
+
+.form-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1.7rem;
+    margin-top: 2rem;
+}
+
+
+
+form-text{
+    width: 70%;
+}
+
+.information{
+    background-color: #F9FAFA;
+    padding-top: 1rem;
+}
+
+
+
+.testimonial-box1 {
+    display: flex;
+    gap: 20px;
+}
+
+.friyay-container {
+    width: 50%;
+}
+/* 
+.friyay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-bottom: 1.5rem; */
+    /* border: 4px solid blue;
+    margin-top: 1rem;
+} */
+
+.friyay-container{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.friyay-container img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.message{
+    /* border: 3px solid firebrick; */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.details1{
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+
+.testimonial-box2 .friyay-container {
+    margin: auto;
+}
+
+.developer{
+    color: #dc3545;
+}
+
+.style{
+    display: flex;
+    text-align: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin: 2rem;
+}
+
+.studio{
+    margin-top: 7rem;
+}
+
+.benefits{
+    padding: 1rem;
+    color: #212529;
+}
+
+.stylebox1{
+    padding: 1em;
+}
+
+.first{
+    padding: 0.4rem;
+}
+
+.benefits img{
+    padding: 0.5rem;
+}
+
+.style-text{
+    padding-top: 0.5rem;
+}
+
+.class{
+    padding-top: 1rem;
+}
+
+.option{
+    background-color: #F9FAFA;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.columnbox{
+    display: flex;
+    margin: 1rem;
+}
+
+.columnbox1{
+    width: 50%;
+}
+
+.columnbox1 img{
+    width: 100%;
+}
+
+.column{
+    margin: 2rem;
+}
+
+/* start of home */
+.shift{
+    margin: 0.5rem;
+}
+
+.shift2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #212529;
+    font-family: 'GT Walsheim', sans-serif;
+    margin: 1rem;
+}
+
+.line{
+    content: '''';
+    position:relative;
+    width: 50px;
+    height: 5px;
+    background-color: #007BFF;
+    left: 48%;
+    top: rem;
+    margin-top: 1rem;
+}
+
+/* for all my buttons */
+button{
+    padding: 1rem;
+    font-size: .9rem;
+    border-radius: 3px;
+    background-color: #007BFF;
+    font-family: 'GT Walsheim', sans-serif;
+    border-radius: 9px;
+    box-shadow: 5px 5px 2px 2px rgb(173, 170, 170);
+}
+
+button a{
+    color: #ffffff;
+}
+/* end of buttons */
+
+
+.main{
+    display: flex;
+}
+
+
+.home{
+    font-size: 1rem;
+}
+
+.text-capitalize{
+    margin-bottom: 3rem;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    font-family: PT sans-serif;
+    font-size: 1rem;
+}
+
+.text-capitalize p{
+    width: 100%;
+    margin-top: rem;
+}
+
+.div-1{
+    margin: 4rem;
+}
+
+.div-2{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.div-2 img{
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homebox{
+    margin: 2rem;
+    margin-bottom: -2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+/* end of home */
+
+
+/* for facility */
+.facility{
+    font-size: 1rem;
+}
+
+.facility-box{
+    position: relative;
+    
+}
+
+.shift2 .h2{
+    text-align: center;
+    margin-left: 9rem;
+}
+
+.facility .order-2{
+    position: absolute;
+    width: 50rem;
+    right: 0;
+    top: 25%;
+}
+
+.description{
+    padding: 4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 5rem;
+    box-shadow: 10px 5px 15px;
+    position: absolute;
+    top: 15rem;
+    margin-left: 22rem;
+    margin-right: 10rem;
+}
+
+.order-1 img{
+    width: 80%;
+}
+
+.order-2 .description{
+    width: 100%;
+}
+
+.order-box2{
+    margin-top: 20rem;
+}
+/* end of facility */
+
+/* for marker */
+.marker{
+    font-size: 1rem;
+}
+
+/* fix this in the morning */
+.display{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 75rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.sets{
+    margin: 1rem;
+}
+
+h2 .shift2{
+    font-size: 9rem;
+}
+
+.flex-1{
+    width: 50%;
+}
+
+.flex-1 img{
+   width: 100%;
+}
+
+.bold{
+    color: #212529;
+}
+
+.flex-box{
+    margin: 1rem;
+}
+/* for all my ul tags */
+.space li{
+    list-style-type: disc;
+    margin: 1.3rem;
+}
+/* end of marker */
+
+/* for career-guidiance */
+.career-guidiance{
+    font-size: 1rem;
+}
+
+.support{
+    display: flex;
+}
+
+.col-6{
+    padding: 1rem;
+}
+
+.col-6 img{
+    width: 70%;
+}
+
+.layout{
+    margin-top: 0.7rem;
+}
+
+.layout-1{
+    margin-top: 1.2rem;
+}
+
+/* layout-2 controls margin-top for all buttons */
+.layout-2{
+    margin-top: 1rem;
+}
+
+/* end of caeer-guidiance */
+
+/* start of divider */
+.divider{
+    background-color: #F9FAFA;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* font-size: 1.9rem; */
+}
+
+.divider-box{
+    background-color: #007BFF;
+    color: #fff;
+    margin: 2rem;
+    border-radius: 0.8rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   box-shadow: 5px 5px 2px 2px rgb(173, 170, 170);
+}
+
+.align{
+    display: flex;
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    line-height: 1.6rem;
+}
+
+.items{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* font-size: 2rem; */
+    margin-bottom: 1rem;
+    margin-top: 0;
+    align-items: center;
+    text-align: left;
+    margin: 2rem;
+    width: 50%;
+    line-height: 1.6;
+}
+
+.items-1{
+    margin-bottom: 1rem;
+}
+
+.blue{
+     font-size: 1.5rem;
+}
+/* end of divider */
+
+/* start of faq */
+.faq{
+    font-size: 1rem;
+}
+
+.bottom{
+    margin: 2rem;
+}
+
+.bottom-box{
+    display: flex;
+    text-align: left;
+}
+/* end of faq */
+
+/* start of application */
+.application{
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 30px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.application-box{
+    padding: 20px 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+.script{
+    padding: 30px 0;
+}
+
+.virtual{
+    padding: 3rem;
+    text-align: center;
+}
+
+.round-box{
+    background-color: #007BFF;
+}
+
+.script-box{
+    display: flex;
+}
+/* end of application */
+
+/* footer starts */
+.footer{
+    background-color: #000000;
+    color: #B7B7B7;
+    padding: 3rem;
+}
+
+.footer-container{
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer-main{
+    display: flex;
+}
+
+.footer-main1{
+    text-align: left;
+}
+
+.logo-box{
+    display: flex;
+}
+
+.box img{
+    width: 1.5rem;
+}
+/* footer ends */
+
+
